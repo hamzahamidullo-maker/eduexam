@@ -1,0 +1,7 @@
+{
+  "name": "EduExam - Modern Training Platform",
+  "description": "A comprehensive exam management system for training centers featuring 16-month modules, specialized Kids/Adult modes, automated grading, and live admin tracking.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
