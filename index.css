@@ -1,0 +1,38 @@
+
+      body { font-family: 'Inter', sans-serif; }
+      .kids-font { font-family: 'Quicksand', sans-serif; }
+      .kids-title { font-family: 'Fredoka One', cursive; }
+      
+      .bg-edu-orange { background-color: #ff6b00; }
+      .text-edu-orange { color: #ff6b00; }
+      .border-edu-orange { border-color: #ff6b00; }
+      
+      /* Improved Input Styling */
+      .edu-input {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        border: 2px solid #f1f5f9;
+        transition: all 0.2s;
+      }
+      .edu-input:focus {
+        border-color: #ff6b00 !important;
+        ring: 0 !important;
+        outline: none !important;
+      }
+      .edu-input::placeholder {
+        color: #94a3b8 !important;
+      }
+
+      @keyframes slideIn {
+        from { transform: translateX(-100%); }
+        to { transform: translateX(0); }
+      }
+      .drawer-anim { animation: slideIn 0.3s ease-out; }
+      
+      /* Toast animation */
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-up { animation: fadeUp 0.3s ease-out forwards; }
+    
